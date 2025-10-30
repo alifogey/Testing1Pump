@@ -21,7 +21,7 @@ src/
 Arduino
 1. Plug in arduino, make sure motor drivers and pumps are connect
 2. Open Arduino IDE and select the correct board (Arduino Mega 2560) and port
-3. Open UNO_loopback_test.ino in UNO_loopback_test folder. 
+3. Click File Open and find UNO_loopback_test.ino in UNO_loopback_test folder. 
 4. Click upload (light on arduino should flash)
 5. Plug in external power source
 6. To confirm that everythings working, open the Serial Monitor in arduino and test this command, -- If pump is wired correctly, it should move briefly 
