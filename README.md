@@ -6,8 +6,8 @@ Open the UI (Try5 project) **or** run the Python app to look at the user interfa
 
 ## Layout
 
-arduino/
- ├─ RAMPS_PumpControl.ino              # arduino code
+UNO_loopback_test/
+ ├─ UNO_loopback_test.ino              # arduino code
 src/
  ├─ main.py              # Python app launcher
  ├─ backend.py           # Serial communication
@@ -16,6 +16,7 @@ src/
          PumpCardForm.ui.qml
          SetupPageForm.ui.qml
          RunPageForm.ui.qml
+         Try5.qmlproject  #to view just the UI
 ## Run
 Arduino
 1. Plug in arduino, make sure motor drivers and pumps are connect
