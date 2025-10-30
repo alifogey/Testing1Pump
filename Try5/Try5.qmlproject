@@ -1,0 +1,27 @@
+
+import QmlProject 1.3
+
+Project {
+    mainFile: "Try5Content/Main.qml"
+
+    QmlFiles {
+        files: [
+            "Try5Content/Main.qml",
+            "Try5Content/SetupPageForm.ui.qml",
+            "Try5Content/RunPageForm.ui.qml",
+            "Try5Content/PumpCardForm.ui.qml",
+            "Try5Content/RunPumpCardForm.ui.qml"
+        ]
+    }
+
+    Environment {
+        // helpful for numerical parsing to match QML usage
+        // key: "QT_IM_MODULE"; value: "qtvirtualkeyboard"
+    }
+
+    // Design Studio preview settings
+    qt6Project: true
+    designer {
+        rapidIteration: true
+    }
+}
