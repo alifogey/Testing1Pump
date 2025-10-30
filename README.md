@@ -23,8 +23,10 @@ Arduino
 3. Open RAMPS_PumpControl.ino in arduino
 4. Click upload (light on arduino should flash)
 5. Plug in external power source
-6. To confirm that everythings working, open the Serial Monitor in arduino and test this command 
-{"prime": 1} -- If pump is wired correctly, it should move briefly
+6. To confirm that everythings working, open the Serial Monitor in arduino and test this command, -- If pump is wired correctly, it should move briefly 
+```
+{"prime": 1}
+```
 7. Close Serial Monitor (if not closed, won't run)
 8. Then open powershell
 9. Copy this whole block of code
