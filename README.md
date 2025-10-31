@@ -29,10 +29,11 @@ Arduino
 {"prime": 1}
 ```
 7. Close Serial Monitor (if not closed, won't run)
-8. Then open powershell
-9. Copy this whole block of code
+9. Then open powershell
+10. Change the file path to where you downloaded the zip and into the src file (where main.py lives), example below
+cd "C:\Users\aliso\Downloads\Test_1_Pump (1)\Test_1_Pump\src" 
+12. Once inside the right file path, copy this whole block of code
 ```
-cd "C:Users\...." ** change with your folder path
 pip install PySide6 pyserial
 $env:PUMP_SERIAL_PORT="COM4"   # use your real COM port
 python main.py
